@@ -1,0 +1,207 @@
+{
+  "uuid": "7942031633c63937f2d2e4f5278927ba",
+  "path": "Offline/AERA%20Erdubatterie",
+  "name": "AERA Erdubatterie",
+  "content": "",
+  "created_at": "2021-10-04 12:55:38",
+  "updated_at": "2021-10-05 12:57:41",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b6f3c57b97d61c46155b5aa0e10c0edc",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3608cd05c3534ca09bedf0afa9321986": 6,
+        "5f8bd12c4d3c85c4166e6d5fee3d8490": 1,
+        "c65b3762cc1a4b71aa496945042d8121": 1,
+        "42113809b3284eacbaf69ca5b09d0763": 7,
+        "27c2eed89915476d8e485f4506beefa8": 1,
+        "f39346e7e65641538a40ba640e352f73": 1,
+        "62a5d91115c34b5b8d27e6b924c6c14e": 1,
+        "1b891a68fefee04d3c81b838a486bb2b": 2,
+        "240fe4410a9c1d7d666f023cdce6303e": 1,
+        "3ec77201bbcd4ecd8722658d581a4e60": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1025",
+          6,
+          "BAT-TH_KEYSTONE-1025",
+          "BT1,BT2,BT3,BT4,BT5,BT6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C238060",
+            "BOM_Manufacturer": "Keystone",
+            "BOM_Manufacturer Part": "1025",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a9856074382b4fbfaebf02b803039439",
+            "uuid": "3608cd05c3534ca09bedf0afa9321986"
+          }
+        ],
+        [
+          "RS1JL R3G",
+          7,
+          "SUB-SMA_L2.8-W1.8-LS3.6-RD",
+          "D1,D2,D3,D4,D5,D6,D7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C483946",
+            "BOM_Manufacturer": "Taiwan Semiconductor(Taiwan Semicon)",
+            "BOM_Manufacturer Part": "RS1JL R3G",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "d3012a7efbcd433899905fc9af234926",
+            "uuid": "42113809b3284eacbaf69ca5b09d0763"
+          }
+        ],
+        [
+          "1N4148",
+          1,
+          "DO-35_BD2.0-L4.2-P8.20-D0.5-RD",
+          "D8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C13769",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "1N4148",
+            "puuid": "6c939f0b67d24ba88150ca5feca61f68",
+            "uuid": "62a5d91115c34b5b8d27e6b924c6c14e"
+          }
+        ],
+        [
+          "DB9_Male",
+          1,
+          "DSUB-TH_DMR-9P",
+          "DB1",
+          {
+            "BOM_Supplier Part": "C185657",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Amphenol",
+            "BOM_Manufacturer Part": "",
+            "puuid": "44c0edd61fae49489643a1b6915a9cad",
+            "uuid": "27c2eed89915476d8e485f4506beefa8"
+          }
+        ],
+        [
+          "250V 5A Slow break",
+          1,
+          "FUSE-SMD_5-20MM",
+          "F1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "250V 5A Slow break",
+            "BOM_Manufacturer": "XCFuse",
+            "BOM_Supplier Part": "C38454",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5b9c1d99c7824d7a87ce039f5a3f6f5c",
+            "uuid": "5f8bd12c4d3c85c4166e6d5fee3d8490"
+          }
+        ],
+        [
+          "0216.250MXP",
+          1,
+          "FUSE-SMD_L20.0-W5.0",
+          "F2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C178846",
+            "BOM_Manufacturer": "Littelfuse",
+            "BOM_Manufacturer Part": "0216.250MXP",
+            "puuid": "0f6b0a4853534bc6bbd13cd4a5e6a090",
+            "uuid": "c65b3762cc1a4b71aa496945042d8121"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          2,
+          "HDR-F-2.54_1X2",
+          "H1,H2",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "Precision potentiometer 3296W/50ohm",
+          1,
+          "RES-ADJ-TH_3296W",
+          "P1",
+          {
+            "BOM_Supplier Part": "C21881",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Precision potentiometer 3296W/50ohm",
+            "puuid": "5e404972447a403ca43a83aeb15e254e",
+            "uuid": "240fe4410a9c1d7d666f023cdce6303e"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "RES-TH_BD7.0-L18.0-P22.00-D0.5",
+          "R1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "MFR03SF1000A10",
+            "BOM_Supplier Part": "C58754",
+            "puuid": "db2af2c6b59b40db8751095af10f3862",
+            "uuid": "1b891a68fefee04d3c81b838a486bb2b"
+          }
+        ],
+        [
+          "1k2",
+          1,
+          "RES-TH_BD7.0-L18.0-P22.00-D0.5",
+          "R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "MFR03SF1000A10",
+            "BOM_Supplier Part": "C58754",
+            "puuid": "db2af2c6b59b40db8751095af10f3862",
+            "uuid": "1b891a68fefee04d3c81b838a486bb2b"
+          }
+        ],
+        [
+          "LM324NG",
+          1,
+          "PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL",
+          "U1",
+          {
+            "BOM_Supplier Part": "C99121",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "LM324NG",
+            "BOM_Manufacturer Part": "ON",
+            "puuid": "6f84b3335a6146cab7731924dbb03837",
+            "uuid": "f39346e7e65641538a40ba640e352f73"
+          }
+        ]
+      ],
+      "updateTime": 1633431461,
+      "createTime": 1633345451,
+      "histories": [],
+      "created_at": "2021-10-04 13:04:11",
+      "updated_at": "2021-10-05 12:57:41"
+    }
+  ],
+  "sort": [],
+  "title": "AERA Erdubatterie",
+  "foldername": "AERA Erdubatterie",
+  "schfilename": "AERA Erdubatterie.json",
+  "schfilemtime": 1633431461544
+}
